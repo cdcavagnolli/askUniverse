@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		95304C5D24E960690092F58C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95304C5C24E960690092F58C /* AppDelegate.swift */; };
+		95304C5F24E960690092F58C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95304C5E24E960690092F58C /* SceneDelegate.swift */; };
+		95304C6124E960690092F58C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95304C6024E960690092F58C /* ViewController.swift */; };
+		95304C6424E960690092F58C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95304C6224E960690092F58C /* Main.storyboard */; };
+		95304C6624E9606A0092F58C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95304C6524E9606A0092F58C /* Assets.xcassets */; };
+		95304C6924E9606A0092F58C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95304C6724E9606A0092F58C /* LaunchScreen.storyboard */; };
+		95304C6E24E9606A0092F58C /* Ask Universe.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 95304C6D24E9606A0092F58C /* Ask Universe.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		95304C7424E9606A0092F58C /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95304C7224E9606A0092F58C /* Interface.storyboard */; };
+		95304C7624E9606A0092F58C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95304C7524E9606A0092F58C /* Assets.xcassets */; };
+		95304C7D24E9606B0092F58C /* Ask Universe WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 95304C7C24E9606B0092F58C /* Ask Universe WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		95304C8224E9606B0092F58C /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95304C8124E9606B0092F58C /* InterfaceController.swift */; };
+		95304C8424E9606B0092F58C /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95304C8324E9606B0092F58C /* ExtensionDelegate.swift */; };
+		95304C8624E9606B0092F58C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95304C8524E9606B0092F58C /* Assets.xcassets */; };
+		95304C9524E967DD0092F58C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95304C7524E9606A0092F58C /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		95304C6F24E9606A0092F58C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95304C5124E960690092F58C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95304C6C24E9606A0092F58C;
+			remoteInfo = "Ask Universe WatchKit App";
+		};
+		95304C7E24E9606B0092F58C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95304C5124E960690092F58C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95304C7B24E9606B0092F58C;
+			remoteInfo = "Ask Universe WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		95304C8D24E9606B0092F58C /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				95304C7D24E9606B0092F58C /* Ask Universe WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95304C9124E9606B0092F58C /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				95304C6E24E9606A0092F58C /* Ask Universe.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		95304C5924E960690092F58C /* Ask Universe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ask Universe.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95304C5C24E960690092F58C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		95304C5E24E960690092F58C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		95304C6024E960690092F58C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		95304C6324E960690092F58C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		95304C6524E9606A0092F58C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		95304C6824E9606A0092F58C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		95304C6A24E9606A0092F58C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95304C6D24E9606A0092F58C /* Ask Universe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ask Universe.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95304C7324E9606A0092F58C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		95304C7524E9606A0092F58C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		95304C7724E9606A0092F58C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95304C7C24E9606B0092F58C /* Ask Universe WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Ask Universe WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95304C8124E9606B0092F58C /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		95304C8324E9606B0092F58C /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		95304C8524E9606B0092F58C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		95304C8724E9606B0092F58C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95304C5624E960690092F58C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95304C7924E9606B0092F58C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		95304C5024E960690092F58C = {
+			isa = PBXGroup;
+			children = (
+				95304C5B24E960690092F58C /* Ask Universe */,
+				95304C7124E9606A0092F58C /* Ask Universe WatchKit App */,
+				95304C8024E9606B0092F58C /* Ask Universe WatchKit Extension */,
+				95304C5A24E960690092F58C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		95304C5A24E960690092F58C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95304C5924E960690092F58C /* Ask Universe.app */,
+				95304C6D24E9606A0092F58C /* Ask Universe.app */,
+				95304C7C24E9606B0092F58C /* Ask Universe WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95304C5B24E960690092F58C /* Ask Universe */ = {
+			isa = PBXGroup;
+			children = (
+				95304C5C24E960690092F58C /* AppDelegate.swift */,
+				95304C5E24E960690092F58C /* SceneDelegate.swift */,
+				95304C6024E960690092F58C /* ViewController.swift */,
+				95304C6224E960690092F58C /* Main.storyboard */,
+				95304C6524E9606A0092F58C /* Assets.xcassets */,
+				95304C6724E9606A0092F58C /* LaunchScreen.storyboard */,
+				95304C6A24E9606A0092F58C /* Info.plist */,
+			);
+			path = "Ask Universe";
+			sourceTree = "<group>";
+		};
+		95304C7124E9606A0092F58C /* Ask Universe WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				95304C7224E9606A0092F58C /* Interface.storyboard */,
+				95304C7524E9606A0092F58C /* Assets.xcassets */,
+				95304C7724E9606A0092F58C /* Info.plist */,
+			);
+			path = "Ask Universe WatchKit App";
+			sourceTree = "<group>";
+		};
+		95304C8024E9606B0092F58C /* Ask Universe WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				95304C8124E9606B0092F58C /* InterfaceController.swift */,
+				95304C8324E9606B0092F58C /* ExtensionDelegate.swift */,
+				95304C8524E9606B0092F58C /* Assets.xcassets */,
+				95304C8724E9606B0092F58C /* Info.plist */,
+			);
+			path = "Ask Universe WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95304C5824E960690092F58C /* Ask Universe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95304C9224E9606B0092F58C /* Build configuration list for PBXNativeTarget "Ask Universe" */;
+			buildPhases = (
+				95304C5524E960690092F58C /* Sources */,
+				95304C5624E960690092F58C /* Frameworks */,
+				95304C5724E960690092F58C /* Resources */,
+				95304C9124E9606B0092F58C /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95304C7024E9606A0092F58C /* PBXTargetDependency */,
+			);
+			name = "Ask Universe";
+			productName = "Ask Universe";
+			productReference = 95304C5924E960690092F58C /* Ask Universe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		95304C6C24E9606A0092F58C /* Ask Universe WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95304C8E24E9606B0092F58C /* Build configuration list for PBXNativeTarget "Ask Universe WatchKit App" */;
+			buildPhases = (
+				95304C6B24E9606A0092F58C /* Resources */,
+				95304C8D24E9606B0092F58C /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95304C7F24E9606B0092F58C /* PBXTargetDependency */,
+			);
+			name = "Ask Universe WatchKit App";
+			productName = "Ask Universe WatchKit App";
+			productReference = 95304C6D24E9606A0092F58C /* Ask Universe.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		95304C7B24E9606B0092F58C /* Ask Universe WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95304C8A24E9606B0092F58C /* Build configuration list for PBXNativeTarget "Ask Universe WatchKit Extension" */;
+			buildPhases = (
+				95304C7824E9606B0092F58C /* Sources */,
+				95304C7924E9606B0092F58C /* Frameworks */,
+				95304C7A24E9606B0092F58C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ask Universe WatchKit Extension";
+			productName = "Ask Universe WatchKit Extension";
+			productReference = 95304C7C24E9606B0092F58C /* Ask Universe WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95304C5124E960690092F58C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Cintia Cavagnolli";
+				TargetAttributes = {
+					95304C5824E960690092F58C = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					95304C6C24E9606A0092F58C = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					95304C7B24E9606B0092F58C = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = 95304C5424E960690092F58C /* Build configuration list for PBXProject "Ask Universe" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 95304C5024E960690092F58C;
+			productRefGroup = 95304C5A24E960690092F58C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95304C5824E960690092F58C /* Ask Universe */,
+				95304C6C24E9606A0092F58C /* Ask Universe WatchKit App */,
+				95304C7B24E9606B0092F58C /* Ask Universe WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95304C5724E960690092F58C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95304C6924E9606A0092F58C /* LaunchScreen.storyboard in Resources */,
+				95304C6624E9606A0092F58C /* Assets.xcassets in Resources */,
+				95304C6424E960690092F58C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95304C6B24E9606A0092F58C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95304C7624E9606A0092F58C /* Assets.xcassets in Resources */,
+				95304C7424E9606A0092F58C /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95304C7A24E9606B0092F58C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95304C9524E967DD0092F58C /* Assets.xcassets in Resources */,
+				95304C8624E9606B0092F58C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95304C5524E960690092F58C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95304C6124E960690092F58C /* ViewController.swift in Sources */,
+				95304C5D24E960690092F58C /* AppDelegate.swift in Sources */,
+				95304C5F24E960690092F58C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95304C7824E9606B0092F58C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95304C8424E9606B0092F58C /* ExtensionDelegate.swift in Sources */,
+				95304C8224E9606B0092F58C /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		95304C7024E9606A0092F58C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95304C6C24E9606A0092F58C /* Ask Universe WatchKit App */;
+			targetProxy = 95304C6F24E9606A0092F58C /* PBXContainerItemProxy */;
+		};
+		95304C7F24E9606B0092F58C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95304C7B24E9606B0092F58C /* Ask Universe WatchKit Extension */;
+			targetProxy = 95304C7E24E9606B0092F58C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		95304C6224E960690092F58C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95304C6324E960690092F58C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		95304C6724E9606A0092F58C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95304C6824E9606A0092F58C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		95304C7224E9606A0092F58C /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95304C7324E9606A0092F58C /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		95304C8824E9606B0092F58C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		95304C8924E9606B0092F58C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95304C8B24E9606B0092F58C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UY4P26N45M;
+				INFOPLIST_FILE = "Ask Universe WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cintia.Ask-Universe.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
+			};
+			name = Debug;
+		};
+		95304C8C24E9606B0092F58C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UY4P26N45M;
+				INFOPLIST_FILE = "Ask Universe WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cintia.Ask-Universe.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
+			};
+			name = Release;
+		};
+		95304C8F24E9606B0092F58C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UY4P26N45M;
+				IBSC_MODULE = Ask_Universe_WatchKit_Extension;
+				INFOPLIST_FILE = "Ask Universe WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cintia.Ask-Universe.watchkitapp";
+				PRODUCT_NAME = "Ask Universe";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
+			};
+			name = Debug;
+		};
+		95304C9024E9606B0092F58C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UY4P26N45M;
+				IBSC_MODULE = Ask_Universe_WatchKit_Extension;
+				INFOPLIST_FILE = "Ask Universe WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cintia.Ask-Universe.watchkitapp";
+				PRODUCT_NAME = "Ask Universe";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
+			};
+			name = Release;
+		};
+		95304C9324E9606B0092F58C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UY4P26N45M;
+				INFOPLIST_FILE = "Ask Universe/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cintia.Ask-Universe";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		95304C9424E9606B0092F58C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UY4P26N45M;
+				INFOPLIST_FILE = "Ask Universe/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cintia.Ask-Universe";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95304C5424E960690092F58C /* Build configuration list for PBXProject "Ask Universe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95304C8824E9606B0092F58C /* Debug */,
+				95304C8924E9606B0092F58C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95304C8A24E9606B0092F58C /* Build configuration list for PBXNativeTarget "Ask Universe WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95304C8B24E9606B0092F58C /* Debug */,
+				95304C8C24E9606B0092F58C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95304C8E24E9606B0092F58C /* Build configuration list for PBXNativeTarget "Ask Universe WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95304C8F24E9606B0092F58C /* Debug */,
+				95304C9024E9606B0092F58C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95304C9224E9606B0092F58C /* Build configuration list for PBXNativeTarget "Ask Universe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95304C9324E9606B0092F58C /* Debug */,
+				95304C9424E9606B0092F58C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 95304C5124E960690092F58C /* Project object */;
+}
